@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=New+Amsterdam&family=Platypi:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=New+Amsterdam&family=Platypi:ital,wght@0,300..800;1,300..800&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&family=Dancing+Script:wght@400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=New+Amsterdam&family=Platypi:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
+
+html , body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(0deg, #0000ff, #ffffff, #0000ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+#container {
+
+    position: absolute;
+    width: 400px;
+    background-color: rgb(255, 141, 59);
+    border: 2px solid black; 
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 100px black;
+}
+
+h1{
+    text-align: center;
+    font-size: 38px;
+    font-family: "Platypi", serif;
+    padding-bottom: 0px;
+}
+
+.author{
+    padding: 0px;
+    font-family: "Lora", serif;
+    font-size: 23px;
+    font-style: italic;
+}
+
+pre{
+    text-align: center;
+    padding: 6px;
+    background-color: #ffff00;
+    font-family: "Anek Devanagari", sans-serif;
+    font-size: 20px;
+    box-shadow: #ffff00 0px 0px 8px 6px;
+    margin-bottom: 0px;
+}
+
+input{
+    display: flex;
+    margin: 40px 0px 0px 5px;
+    padding: 10px 10px 5px 10px;
+    font-size: 50px;
+    width: 80px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: black;
+    cursor: text;
+    display: inline-block;
+}
+
+
+#equal{
+    margin-left: 20px;
+    width: 50px;
+    cursor: pointer;
+    border-style: none ;
+    border-radius: 25px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 100, 0.6);
+    display: inline-block;
+}
+
+figure{
+    display: inline-block;
+    text-align: center;
+    margin: 40px 0px 0px 70px ;
+}
+
+#win{
+    margin: 0px;
+    padding: 0px;
+    width: 100px; 
+    display: inline-block;
+    text-align: center;
+}
+
+#lose{
+   margin: 0px;
+   padding: 0px;
+   width: 90px; 
+   display: inline-block;
+   text-align: center;
+}
+
+#resultline{
+box-sizing: border-box;
+border: solid 2px black;
+border-radius: 5px;
+padding: 5px;
+text-align: center;
+margin-top: 20px;
+box-shadow: 0px 0px 10px black;
+background-color: #c3c3c3;
+}
+
